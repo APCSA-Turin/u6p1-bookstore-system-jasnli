@@ -55,7 +55,7 @@ public class User{
      */
     public String userInfo(){
         String str = "";
-        str += "Name: "+ name + "\nID: "+ Id +" \nBooks:\n"+ bookListInfo();
+        str += "Name: "+ name + "\nId: "+ Id +"\nBooks: \n"+ bookListInfo();
         return str;     
     } 
 
